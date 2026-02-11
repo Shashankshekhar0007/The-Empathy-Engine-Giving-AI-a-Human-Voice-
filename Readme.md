@@ -39,12 +39,13 @@ Design Choices & Emotion-to-Voice Mapping Logic
             * Higher intensity results in stronger modulation of voice parameters.
 
       Voice Modulation Strategy
-
+      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
               Emotion	             Stability	          Style	                Effect
------------------------------------------------------------------------------------------------                          |                |                                   |
-              Happy	Lower|	       Higher |        Energetic                    | bright
-              Frustrated |	       Higher |	       Lower	Controlled          | tense
-              Neutral	 |         Medium |	       Medium	Balanced            | natural
+              
+              Happy	Lower	       Higher          Energetic                     bright
+              Frustrated 	       Higher 	       Lower	Controlled          tense
+              Neutral	           Medium 	       Medium	Balanced            natural
 
       This mapping ensures:
 
@@ -74,13 +75,13 @@ Design Choices & Emotion-to-Voice Mapping Logic
 
 🛠️ Tech Stack
 
-    Layer            |     Technology
-  ---------------------------------------------
-    Language	       |     Python
-    Emotion Analysis |     Hugging Face Transformers (Detects emotional intent from text)
-    TTS	             |     ElevenLabs API            (Generates expressive human-like speech)
-    Web Interface	   |     Flask                     (Serves the web interface)
-    NLP	             |     NLTK                       (Splits text into sentences for                                               fine-grained emotional modulation)
+    Layer                 Technology
+    
+    Language	            Python
+    Emotion Analysis      Hugging Face Transformers (Detects emotional intent from text)
+    TTS	                  ElevenLabs API            (Generates expressive human-like speech)
+    Web Interface	      Flask                     (Serves the web interface)
+    NLP	                  NLTK                       (Splits text into sentences for                                               fine-grained emotional modulation)
 
 ------------------------------------------------------------------------------------------------
 
