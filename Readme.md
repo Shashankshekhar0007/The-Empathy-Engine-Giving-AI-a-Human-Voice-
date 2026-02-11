@@ -1,4 +1,4 @@
-🎧 The Empathy Engine — Emotion-Aware AI Voice Synthesis
+🎧 The Empathy Engine: Giving AI a Human Voice 
 
     An AI-powered service that transforms text into expressive human-like speech by dynamically modulating voice characteristics based on detected emotional intent.
 
@@ -42,9 +42,9 @@ Design Choices & Emotion-to-Voice Mapping Logic
 
               Emotion	             Stability	          Style	                Effect
 -----------------------------------------------------------------------------------------------                          |                |                                   |
-              Happy	Lower|	       Higher |        Energetic                  | bright
+              Happy	Lower|	       Higher |        Energetic                    | bright
               Frustrated |	       Higher |	       Lower	Controlled          | tense
-              Neutral	   |         Medium |	       Medium	Balanced            | natural
+              Neutral	 |         Medium |	       Medium	Balanced            | natural
 
       This mapping ensures:
 
